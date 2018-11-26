@@ -20,7 +20,6 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
 	<title>Christ College App</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>	
 <div id="nav-nd-mob" class="container-fluid" style="background-image:url('images/back.jpg');">	
@@ -38,20 +37,27 @@
  	  <a class="nav-link" href="#FEATURES">FEATURES</a>
     </li>
     <li class="nav-item mr-xl-3">
- 	  <a class="nav-link">CONTACT US</a>
-    </li>
+ 	  <a class="nav-link" href="#disqus_thread">FEEDBACK/COMMENTS</a>
+	</li>
+	<li class="nav-item mr-xl-3">
+		<a class="nav-link btn btn-light" style="color:black;">DOWNLOAD</a>
+	 </li>
  </ul>
 </div> 
 </nav>
 </div>
 <div class="container-fluid" style="background-image:url('images/back.jpg');">
-<div id="image-mob" class="float-right" style="width:20%;clear:none;">
-<img src="images/Actbeg.png" class="img-fluid  d-sm-none d-md-none d-xl-inline">
+<div id="image-mob" class="float-right">
+<img src="images/Actbeg.png" id="begimg" class="img-fluid  d-sm-none d-md-none d-xl-inline mt-2">
+<br><br>
 </div>
 <div id="appdesc" class="container" style="color:white;font-family: 'Lato', sans-serif;">
-<h3 align="center">WELCOME TO THE OFFICIAL<br><br>WEBSITE<br><br>OF</h3><br>
-<h4 align="center">CCAPP<br><br>CHRIST COLLEGE APP OFFICIAL ANDROID APP<br><br>
-<img src="images/badge.png" class="mx-auto d-block"><br>
+<h2 class="pt-8">CCAPP:Christ College App</h2><br>
+<h5 align="center"><p align="justify" style="line-height:35px;">It is the Official android app of Christ<br> College Irinjalakuda.College app provides<br>
+facilities like Find Room,Seating<br>Arrangement of main exam and lot more.<br><br>
+<a class="btn btn-light" style="color:black;" href="#FEATURES">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;<a class="btn btn-light" style="color:black;">DOWNLOAD</a>
+</p></h5><br><br><br><br><br><br>
 </div>
 </div>	
 <div id="FEATURES" style="background-color:#ede9e9;font-family: 'Hind Siliguri', sans-serif;
@@ -88,6 +94,24 @@
 </div>
 </div>	
 </div>	
-</div>
+<div class="container-fluid mt-2">
+<div id="disqus_thread"></div>
+<script>
+
+var disqus_config = function () {
+this.page.url = "https://christcollegeapp.github.io";  
+this.page.identifier = "disqus_thread"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-christcollegeapp-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//https-christcollegeapp-github-io.disqus.com/count.js" async></script>
+</div>                            
 </body>
 </html>
