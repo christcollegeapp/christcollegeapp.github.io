@@ -5,3 +5,4 @@
     background: linear-gradient(to right, rgb(53, 92, 125) 0%, rgb(97, 91, 123) 40%, rgb(158, 101, 128) 80%, rgb(192, 108, 132) 100%);
     }
  #nav-nd-mob{border-bottom-color: white;}   
+ body{overflow-x:hidden;}
